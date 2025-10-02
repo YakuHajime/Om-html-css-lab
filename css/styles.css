@@ -1,0 +1,149 @@
+/* Q#: Reset margin for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Q#: HTML5 elements as block */
+header, nav, section, article, footer, aside, main, figure {
+    display: block;
+}
+
+/* Q#: Body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background: url("../assets/images/dark-wood1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+/* Q#: Container */
+.container {
+    width: 950px;
+    margin: 5px auto;
+    background: rgba(255,255,255,0.9);
+    padding: 10px;
+}
+
+/* Q#: Content */
+.content {
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+/* Q#: Header, nav, footer */
+header, nav, footer {
+    background: #222;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Q#: Nav ul */
+nav ul {
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+}
+
+/* Q#: Nav li horizontal */
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+/* Q#: Nav links */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Q#: Nav pseudo-classes */
+nav ul li a:link { color: #fff; }
+nav ul li a:visited { color: #ccc; }
+nav ul li a:hover { color: #ff6600; }
+nav ul li a:active { color: #ff0000; }
+
+/* Q#: Headings */
+h1, h2, h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    color: #444;
+}
+
+/* Q#: Centered image class */
+.img-centre {
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
+}
+
+/* Q#: Audio/Video */
+audio, video {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Q#: Tables */
+table {
+    width: 800px;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #444;
+    padding: 2px 5px;
+    background: #f9f9f9;
+}
+th, tfoot td {
+    text-transform: uppercase;
+    background: #333;
+    color: #fff;
+}
+
+/* Q#: dt bold */
+dt { font-weight: bold; }
+
+/* Q#: Footer */
+footer {
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0;
+}
+
+/* Q#: iframe */
+iframe {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Q#: fieldset */
+fieldset {
+    width: 500px;
+    margin: 20px auto;
+    border: 2px solid #444;
+    background: #f1f1f1;
+}
+legend {
+    font-style: italic;
+    background: #333;
+    color: #fff;
+    margin: 0 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+/* Q#: Submit button */
+input[type="submit"] {
+    border: 1px solid #444;
+    padding: 5px;
+    background: #222;
+    color: #fff;
+}
+input[type="submit"]:hover {
+    background: #ff6600;
+    color: #fff;
+    cursor: pointer;
+}
